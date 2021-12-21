@@ -1,0 +1,32 @@
+@import './../../styles/variables.scss';
+
+.result-box-wrapper {
+  text-align: center;
+  .total-numbers {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 0 2rem 1rem 2rem;
+    border: 1px solid #fff48c;
+    position: relative;
+    width: 150px;
+    min-height: 80px;
+    @media #{$sm} {
+      width: 100px;
+      min-height: 50px;
+    }
+    h1 {
+      font-size: 22px;
+      margin-bottom: 0;
+    }
+    img {
+      width: 500px;
+      object-fit: contain;
+      position: absolute;
+      transform: translate(-50%, 0%);
+      @media #{$sm} {
+        width: 90vw;
+      }
+    }
+  }
+}

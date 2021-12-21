@@ -1,0 +1,44 @@
+@import "./../../styles/variables.scss";
+
+.main-wrapper {
+  .button-wrapper {
+    text-align: center;
+    .MuiButton-outlined {
+      background-color: #efce4b;
+      padding: 0 2rem;
+      font-size: 36px;
+      font-weight: 700;
+    }
+    .btn-play-again{
+      border: 1px solid #efce4b;
+      color: #efce4b;
+      font-weight: 700;
+      font-size: 20px;
+      text-transform: capitalize;
+      padding: 0.2rem 1rem;
+      &:hover{
+        background-color: #efce4b;
+        color: #fff;
+        text-shadow: 0px 0px 2px #000;
+      }
+    }
+  }
+  .result-reset-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    @media #{$sm} {
+      padding: 1rem;
+    }
+    .btn-reset{
+      border: 1px solid #efce4b;
+      text-transform: capitalize;
+      color: #efce4b;
+      border-radius: 5px;
+      padding: 0 1rem;
+      font-weight: 700;
+      
+    }
+  }
+}

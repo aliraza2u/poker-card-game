@@ -1,0 +1,19 @@
+// @import "./styles/variables";
+
+//! Import Styles Components
+@import "./components/card-game/CardGame.scss";
+@import "./components/deck-card/DeckCard.scss";
+@import "./components/result-card/ResultCard.scss";
+@import "./components/deck-result/DeckResult.scss";
+
+//! ***********
+.app {
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    #0a863e;
+  min-height: 100vh;
+  padding: 2rem 0;
+}

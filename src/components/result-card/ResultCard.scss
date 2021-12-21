@@ -1,0 +1,22 @@
+@import './../../styles/variables.scss';
+
+.result-card-wrapper {
+  min-height: 10vh;
+  background-color: #fff;
+  display: inline-flex;
+  border-radius: 10px;
+  padding: 0 1rem;
+  justify-content: space-between;
+  width: 10vw;
+@media #{$sm} {
+  width: 25vh;
+}
+  .win {
+    color: #008000;
+    font-weight: 700;
+  }
+  .loss {
+    color: #ff0000;
+    font-weight: 700;
+  }
+}
